@@ -1,0 +1,38 @@
+html {
+
+    }
+
+body{
+    height: 4000px;
+    width: 100px
+    position: fixed;
+    }
+
+.box{
+  width: 30%;
+  right: 30%;
+  height: 200px;
+  position: fixed;
+}
+
+.diamond {
+
+width: 20%;
+max-width:150px;
+
+left: 40%;
+position: inherit;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    margin: 60px 0 10px 310px;
+
+    }
